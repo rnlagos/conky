@@ -58,7 +58,7 @@ TEXT
 ${voffset 3}
 ${font}${font Noto Sans:style:size=9}${alignr}${color1}${kernel}${color}${font}
 ${voffset 3}${alignr}${font Noto Sans:size=9}${color1}${exec curl -s www.icanhazip.com}
-${alignr}${color2}${font Hack:Bold:size=14}${execpi 1 $HOME/.ping.sh 212.230.191.80}
+${alignr}${color2}${font Hack:Bold:size=14}${execpi 1 $HOME/.ping.sh 000.000.000.000}
 ${voffset 40}${font Digital Display:size=22}${goto 75}${execpi 1 ~/.conky/conky_mix/hddtemp.sh}${font}${voffset -15}${font Liberation Sans:Bold:size=12}°${font}
 ${voffset 98}${color5}${font Digital Display:size=22}${goto 25}${memperc}${font}${voffset -15}${font Liberation Sans:Bold:size=10}%
 ${voffset 90}${color5}${font Digital Display:size=22}${goto 28}${execpi 1 ~/.conky/conky_mix/gpuutil.sh}${font}${voffset -13}${font Liberation Sans:Bold:size=10}%${color5}${font Digital Display:size=22}${goto 137}${execpi 1 ~/.conky/conky_mix/gputemp.sh}${font}${voffset -15}${font Liberation Sans:Bold:size=12}º
